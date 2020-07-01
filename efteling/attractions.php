@@ -1,0 +1,12 @@
+<?php
+
+include "database-connection.php";
+
+$json = file_get_contents('http://ginootten.nl/vopro/data.txt');
+$obj = json_decode($json);
+
+foreach($obj->AttractionInfo AS $attraction )
+{
+    if($attraction->Type != 'Attraction') { continue; }
+    echo $attraction->Id . "<br>";
+}
