@@ -3,6 +3,9 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
+<a href="index.php">go back</a>
+</body>
 </html>
 <?php
 
