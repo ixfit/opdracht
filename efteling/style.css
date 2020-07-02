@@ -1,3 +1,4 @@
+/*login and register*/
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +19,7 @@ body {
     border-radius: 10px 10px 0 0;
     padding: 20px;
 }
-form, .content {
+form.forms, .content {
     width: 30%;
     margin: 0 auto;
     padding: 20px;
@@ -66,3 +67,73 @@ form, .content {
     border: 1px solid #3c763d;
     margin-bottom: 20px;
 }
+
+/*nav*/
+
+ul.nav {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 200px;
+    background-color: #d2d2d2;
+}
+
+li a.nav {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.nav :hover {
+    background-color: #555;
+    color: white;
+}
+
+/*lists*/
+
+form.lists{
+    text-align: left;
+    padding: 1ch;
+    margin-left: 20ch;
+    margin-right: 20ch;
+    list-style-type: none;
+}
+
+
+form.lists:nth-child(even) {background-color: #d2d2d2;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

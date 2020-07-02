@@ -37,8 +37,13 @@ if (isset($_GET['logout'])) {
 
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
-        <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-        <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+        <div>
+            <ul class="nav">
+                <li><a class="nav" href="attractions.php">Attractions</a></li>
+                <li><a class="nav" href="horeca.php">Horeca</a></li>
+                <li><a class="nav" href="shows.php">Shows</a></li>
+            </ul>
+        </div>
     <?php endif ?>
 </div>
 
